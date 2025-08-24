@@ -40,12 +40,15 @@ export const validateTaskInput = (
 			});
 		} else {
 			const validColors = [
-				'blue',
-				'green',
 				'red',
-				'yellow',
-				'purple',
 				'orange',
+				'amber',
+				'green',
+				'blue',
+				'indigo',
+				'violet',
+				'pink',
+				'stone',
 			];
 			if (!validColors.includes(color)) {
 				errors.push({
